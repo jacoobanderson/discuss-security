@@ -4,6 +4,7 @@ import com.discuss.security.model.AuthenticationRequest;
 import com.discuss.security.model.AuthenticationResponse;
 import com.discuss.security.model.RegisterRequest;
 import com.discuss.security.model.User;
+import com.discuss.security.repository.TokenRepository;
 import com.discuss.security.repository.UserRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;
